@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/skjoldr/static/css/main.da7df4fe.css",
-    "main.js": "/skjoldr/static/js/main.4e771594.js",
-    "static/js/787.483b6574.chunk.js": "/skjoldr/static/js/787.483b6574.chunk.js",
-    "index.html": "/skjoldr/index.html",
-    "main.da7df4fe.css.map": "/skjoldr/static/css/main.da7df4fe.css.map",
-    "main.4e771594.js.map": "/skjoldr/static/js/main.4e771594.js.map",
-    "787.483b6574.chunk.js.map": "/skjoldr/static/js/787.483b6574.chunk.js.map"
+    "main.css": "/Skjoldr/static/css/main.da7df4fe.css",
+    "main.js": "/Skjoldr/static/js/main.98db3add.js",
+    "static/js/787.483b6574.chunk.js": "/Skjoldr/static/js/787.483b6574.chunk.js",
+    "index.html": "/Skjoldr/index.html",
+    "main.da7df4fe.css.map": "/Skjoldr/static/css/main.da7df4fe.css.map",
+    "main.98db3add.js.map": "/Skjoldr/static/js/main.98db3add.js.map",
+    "787.483b6574.chunk.js.map": "/Skjoldr/static/js/787.483b6574.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.da7df4fe.css",
-    "static/js/main.4e771594.js"
+    "static/js/main.98db3add.js"
   ]
 }
