@@ -13,18 +13,6 @@ function Randomizer() {
     const [selected_clan, setSelectedClan] = useState({ name: "", norse: "", icon: "", image: "", selected: true });
     const [show_selected, setShowSelected] = useState(false);
 
-    function OnClanClick(key: any) {
-        const new_data = clan_data.map((clan: any, index: any) => {
-            if (index === key) {
-                clan.selected = !clan.selected;
-                return clan;
-            } else {
-                return clan;
-            }
-        });
-        setClanData(new_data);
-    }
-
     function OnChooseClick() {
         setShowSelected(false);
         const selected_clans: any = clan_data.filter((clan: any) => clan.selected);
@@ -41,6 +29,17 @@ function Randomizer() {
     }, []);
 
     useEffect(() => {
+        function OnClanClick(key: any) {
+            const new_data = clan_data.map((clan: any, index: any) => {
+                if (index === key) {
+                    clan.selected = !clan.selected;
+                    return clan;
+                } else {
+                    return clan;
+                }
+            });
+            setClanData(new_data);
+        }
         var clan_list: any = clan_data;
         setClans(clan_list.map((clan: any, key: any) =>
             <Col key={key}>
